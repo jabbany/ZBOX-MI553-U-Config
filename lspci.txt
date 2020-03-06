@@ -1,0 +1,181 @@
+00:00.0 Host bridge: Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers (rev 05)
+	Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Flags: bus master, fast devsel, latency 0
+	Capabilities: [e0] Vendor Specific Information: Len=10 <?>
+	Kernel driver in use: skl_uncore
+
+00:02.0 VGA compatible controller: Intel Corporation HD Graphics 630 (rev 04) (prog-if 00 [VGA controller])
+	DeviceName:  Onboard IGD
+	Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Flags: bus master, fast devsel, latency 0, IRQ 134
+	Memory at db000000 (64-bit, non-prefetchable) [size=16M]
+	Memory at 50000000 (64-bit, prefetchable) [size=256M]
+	I/O ports at f000 [size=64]
+	[virtual] Expansion ROM at 000c0000 [disabled] [size=128K]
+	Capabilities: [40] Vendor Specific Information: Len=0c <?>
+	Capabilities: [70] Express Root Complex Integrated Endpoint, MSI 00
+	Capabilities: [ac] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [d0] Power Management version 2
+	Capabilities: [100] Process Address Space ID (PASID)
+	Capabilities: [200] Address Translation Service (ATS)
+	Capabilities: [300] Page Request Interface (PRI)
+	Kernel driver in use: i915
+	Kernel modules: i915
+
+00:08.0 System peripheral: Intel Corporation Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
+	Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Flags: fast devsel, IRQ 255
+	Memory at dc24f000 (64-bit, non-prefetchable) [disabled] [size=4K]
+	Capabilities: [90] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Capabilities: [dc] Power Management version 2
+	Capabilities: [f0] PCI Advanced Features
+
+00:14.0 USB controller: Intel Corporation 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller (rev 31) (prog-if 30 [XHCI])
+	Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Flags: bus master, medium devsel, latency 0, IRQ 126
+	Memory at dc230000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [70] Power Management version 2
+	Capabilities: [80] MSI: Enable+ Count=1/8 Maskable- 64bit+
+	Kernel driver in use: xhci_hcd
+
+00:14.2 Signal processing controller: Intel Corporation 100 Series/C230 Series Chipset Family Thermal Subsystem (rev 31)
+	Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Flags: fast devsel, IRQ 18
+	Memory at dc24e000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Kernel driver in use: intel_pch_thermal
+	Kernel modules: intel_pch_thermal
+
+00:16.0 Communication controller: Intel Corporation 100 Series/C230 Series Chipset Family MEI Controller #1 (rev 31)
+	Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Flags: bus master, fast devsel, latency 0, IRQ 133
+	Memory at dc24d000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [8c] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Kernel driver in use: mei_me
+	Kernel modules: mei_me
+
+00:17.0 SATA controller: Intel Corporation HM170/QM170 Chipset SATA Controller [AHCI Mode] (rev 31) (prog-if 01 [AHCI 1.0])
+	Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 125
+	Memory at dc248000 (32-bit, non-prefetchable) [size=8K]
+	Memory at dc24c000 (32-bit, non-prefetchable) [size=256]
+	I/O ports at f090 [size=8]
+	I/O ports at f080 [size=4]
+	I/O ports at f060 [size=32]
+	Memory at dc24b000 (32-bit, non-prefetchable) [size=2K]
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [70] Power Management version 3
+	Capabilities: [a8] SATA HBA v1.0
+	Kernel driver in use: ahci
+
+00:1c.0 PCI bridge: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #1 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 122
+	Bus: primary=00, secondary=01, subordinate=6b, sec-latency=0
+	I/O behind bridge: 00002000-00002fff [size=4K]
+	Memory behind bridge: ac000000-da0fffff [size=737M]
+	Prefetchable memory behind bridge: 0000000060000000-00000000a9ffffff [size=1184M]
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Capabilities: [a0] Power Management version 3
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [140] Access Control Services
+	Capabilities: [220] Secondary PCI Express <?>
+	Kernel driver in use: pcieport
+
+00:1c.4 PCI bridge: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #5 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 123
+	Bus: primary=00, secondary=6c, subordinate=6c, sec-latency=0
+	I/O behind bridge: None
+	Memory behind bridge: dc100000-dc1fffff [size=1M]
+	Prefetchable memory behind bridge: None
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Capabilities: [a0] Power Management version 3
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [140] Access Control Services
+	Capabilities: [220] Secondary PCI Express <?>
+	Kernel driver in use: pcieport
+
+00:1c.6 PCI bridge: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #7 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 124
+	Bus: primary=00, secondary=6d, subordinate=6d, sec-latency=0
+	I/O behind bridge: None
+	Memory behind bridge: dc000000-dc0fffff [size=1M]
+	Prefetchable memory behind bridge: None
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Capabilities: [a0] Power Management version 3
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [140] Access Control Services
+	Capabilities: [200] L1 PM Substates
+	Capabilities: [220] Secondary PCI Express <?>
+	Kernel driver in use: pcieport
+
+00:1f.0 ISA bridge: Intel Corporation HM175 Chipset LPC/eSPI Controller (rev 31)
+	Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Flags: bus master, medium devsel, latency 0
+
+00:1f.2 Memory controller: Intel Corporation 100 Series/C230 Series Chipset Family Power Management Controller (rev 31)
+	Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Flags: fast devsel
+	Memory at dc244000 (32-bit, non-prefetchable) [disabled] [size=16K]
+
+00:1f.3 Audio device: Intel Corporation CM238 HD Audio Controller (rev 31)
+	Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Flags: bus master, fast devsel, latency 32, IRQ 136
+	Memory at dc240000 (64-bit, non-prefetchable) [size=16K]
+	Memory at dc220000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [60] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+
+00:1f.4 SMBus: Intel Corporation 100 Series/C230 Series Chipset Family SMBus (rev 31)
+	Subsystem: ZOTAC International (MCO) Ltd. Device b359
+	Flags: medium devsel, IRQ 16
+	Memory at dc24a000 (64-bit, non-prefetchable) [size=256]
+	I/O ports at f040 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+
+00:1f.6 Ethernet controller: Intel Corporation Ethernet Connection (2) I219-LM (rev 31)
+	Subsystem: Intel Corporation Device 0000
+	Flags: bus master, fast devsel, latency 0, IRQ 132
+	Memory at dc200000 (32-bit, non-prefetchable) [size=128K]
+	Capabilities: [c8] Power Management version 3
+	Capabilities: [d0] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [e0] PCI Advanced Features
+	Kernel driver in use: e1000e
+	Kernel modules: e1000e
+
+6c:00.0 USB controller: ASMedia Technology Inc. ASM2142 USB 3.1 Host Controller (prog-if 30 [XHCI])
+	Subsystem: ASMedia Technology Inc. ASM2142 USB 3.1 Host Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Memory at dc100000 (64-bit, non-prefetchable) [size=32K]
+	Capabilities: [50] MSI: Enable- Count=1/8 Maskable- 64bit+
+	Capabilities: [68] MSI-X: Enable+ Count=8 Masked-
+	Capabilities: [78] Power Management version 3
+	Capabilities: [80] Express Legacy Endpoint, MSI 00
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [200] Secondary PCI Express <?>
+	Capabilities: [300] Latency Tolerance Reporting
+	Kernel driver in use: xhci_hcd
+
+6d:00.0 Network controller: Intel Corporation Wireless 3165 (rev 81)
+	Subsystem: Intel Corporation Dual Band Wireless AC 3165
+	Flags: bus master, fast devsel, latency 0, IRQ 135
+	Memory at dc000000 (64-bit, non-prefetchable) [size=8K]
+	Capabilities: [c8] Power Management version 3
+	Capabilities: [d0] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [40] Express Endpoint, MSI 00
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [140] Device Serial Number <redacted>
+	Capabilities: [14c] Latency Tolerance Reporting
+	Capabilities: [154] L1 PM Substates
+	Kernel driver in use: iwlwifi
+	Kernel modules: iwlwifi

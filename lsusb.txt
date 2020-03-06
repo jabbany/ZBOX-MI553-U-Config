@@ -1,0 +1,54 @@
+USB:
+
+    USB 3.0 Bus:
+
+      Host Controller Driver: AppleUSBXHCISPT
+      PCI Device ID: 0xa12f
+      PCI Revision ID: 0x0031
+      PCI Vendor ID: 0x8086
+
+        USB3.0 Hub:
+
+          Product ID: 0x0813
+          Vendor ID: 0x2109  (VIA Labs, Inc.)
+          Version: 90.11
+          Speed: Up to 5 Gb/s
+          Manufacturer: VIA Labs, Inc.
+          Location ID: 0x14f00000 / 10
+          Current Available (mA): 900
+          Current Required (mA): 0
+          Extra Operating Current (mA): 0
+          Built-In: Yes
+
+        Bluetooth HCI:
+
+          Product ID: 0x0a2a
+          Vendor ID: 0x8087  (Intel Corporation)
+          Version: 0.01
+          Speed: Up to 12 Mb/s
+          Location ID: 0x14700000 / 1
+          Current Available (mA): 500
+          Current Required (mA): 100
+          Extra Operating Current (mA): 0
+          Built-In: Yes
+
+        USB2.0-CRW:
+
+          Product ID: 0x0153
+          Vendor ID: 0x0bda  (Realtek Semiconductor Corp.)
+          Version: 57.13
+          Serial Number: <redacted>
+          Speed: Up to 480 Mb/s
+          Manufacturer: Generic
+          Location ID: 0x14400000 / 3
+          Current Available (mA): 500
+          Current Required (mA): 500
+          Extra Operating Current (mA): 0
+          Built-In: Yes
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleUSBXHCIPCI
+      PCI Device ID: 0x2142
+      PCI Revision ID: 0x0000
+      PCI Vendor ID: 0x1b21
