@@ -1,4 +1,6 @@
 # Zotac ZBOX MI553 Hackintosh Configuration
+![Front Image](img/front.jpg)
+
 The Zotac ZBOX MI553 is a very decent subcompact desktop system on the Kaby Lake platform. It has exceptional I/O, featuring a single Thunderbolt 3 port, a single USB-C 3.1 port, HDMI & DisplayPort video out and a compatible SD card reader.
 
 This makes it a perfect Hackintosh platform. I'm surprised it's not more popular, given its pricing of ~350 USD.
@@ -8,8 +10,8 @@ This makes it a perfect Hackintosh platform. I'm surprised it's not more popular
 - Memory: DDR4 SODIMM, Supports Up to 64GB (2x 32G)
 - Storage:
     - 1x SATA @ SATA 3.0
-    - 1x M.2/NGFF M-key Half-length @ SATA 3.0
-    - 1x M.2/NGFF M-key Full-length @ PCIe 3.0 x4 (NVMe)
+    - 1x M.2/NGFF M-key 22/42 Only @ SATA 3.0
+    - 1x M.2/NGFF M-key 22/42, 60, 80 @ PCIe 3.0 x4 (NVMe)
 - Networking:
     - Wired: Intel I219-LM
     - Wireless: Intel Wireless 3165
@@ -26,7 +28,9 @@ This makes it a perfect Hackintosh platform. I'm surprised it's not more popular
 Notes:
 - Internal wifi is NGFF and removable (voids warranty)
 - Default wifi card's BT function is over USB so it works fine despite wifi not working
-- iGPU memory needs no patch
+- iGPU can properly use memory
+
+Please see [Hardware](hw.md) for more info including images on the internals.
 
 ## Kexts Used
 - Lilu
